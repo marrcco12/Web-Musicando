@@ -1,0 +1,27 @@
+.Obras{ 
+    width: 900px; 
+    height: 600px;
+}
+
+
+table{
+
+    border: black 1px;
+
+}
+
+.negrita{
+    font-weight: bold;
+}
+  
+.imagen2{
+    margin-left: 10%;
+}
+
+.imagen3{
+    margin-left: 30%;
+}
+
+.video1{
+    text-align: center;
+}

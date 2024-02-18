@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>La web de las artes</h2>
+    <div class="Menu1">
+        <ul>
+            <li><a href="/Index.html" title="Inicio">Inicio </a></li>
+            <li><a href="/html/Musica.html" title="Musica">Música</a></li>
+            <li><a href="/html/Cine.html" title="Cine">Cine</a></li>
+            <li><a href="/html/Artes.html" title="Géneros Literarios">Géneros Literarios</a></li>
+            <li><a href="/html/Multimedia.html" title="Multimedia">Multimedia</a></li>
+            <li><a href="/html/Contacto.html" title="Contáctenos">Contáctenos</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <form name="datos-personales" method="post" action="/send.php">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div>
+                <div>
+                    Nombre:
+                    <input type="text" name="nombre" autocomplete="off" placeholder="Introduce tu nombre..." required>
+                </div>
+                <div>
+                    Apellidos:
+                    <input type="text" name="nombre" autocomplete="off" placeholder="Introduce tu apellido..." required>
+                </div>
+                <div>
+                    Email:
+                    <input type="email" name="nombre" autocomplete="off" placeholder="usuario@gmail.com..." required>
+                </div>
+                <div>
+                    Fecha de Nacimiento:
+                    <input type="date" name="nombre" autocomplete="off" placeholder="Introduce tu nombre...">
+                </div>
+                <div>
+                    Fecha de Nacimiento:
+                    <input type="date" name="nombre" autocomplete="off" placeholder="Introduce tu nombre...">
+                </div>
+                <div>
+                    Edad:
+                    <input type="number" name="Edad" autocomplete="off" max="100" placeholder="">
+                </div>
+                <div>
+                    Sexo:
+                    <label><input type="radio" name="sexo" value="H"> Hombre </label></label>
+                    <label><input type="radio" name="sexo" value="H"> Mujer </label></label>
+                </div>
+                <div>
+                    <label for="Pa">Pais</label>
+                    <select name="Pa" id="Pa">
+                        <option value="" selected="selected">--Selecciona--</option>
+                        <option value="España">España</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Italia">Italia</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros Datos</legend>
+
+
+            <div class="formulario2">
+                Mensaje:
+                <textarea name="Mensaje" id="de" cols="30" rows="10" placeholder="Introduce tu mensaje..."></textarea>
+                <div>
+                    Adjunta una foto...
+                    <input type="file" name="adjunto" accept="">
+                </div>
+        </fieldset>
+
+        <input type="checkbox" name="" id="" required> He leído las condiciones
+
+
+            <input type="reset" name="" id="" value="Limpiar">
+            <input type="submit" name="" id="" value="Enviar">
+
+    </form>
+
+    <h2>Centro de Referencia</h2>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7792920263273!2d-16.2858204239301!3d28.456068892071166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cceee5a8035f%3A0xab9f2a74d9e68b51!2sCIFP%20C%C3%A9sar%20Manrique!5e0!3m2!1ses!2ses!4v1708225997827!5m2!1ses!2ses"
+        width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <hr>
+
+    <a href="/html/Contacto.html" title="Inicio">Inicio </a>
+
+</body>
+
+</html>
